@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          # 设置镜像名称为 imlaow/webssh
+          # Mirror image name set to "imlaow/webssh"
           tags: imlaow/webssh:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
